@@ -5,6 +5,7 @@
 ```bash
 npm run dev   # Start the mock CRM
 npm run ae    # Start the copilot
+data/analytics/analytics.sqlite isn't committed (over GitHub's 100 MB limit); copy it in from the challenge zip.
 
 ```
 
