@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# SQLite transient files
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Node
+*.log
+npm-debug.log*
+
+# Editor
+.DS_Store
+.idea/
+.vscode/
+scratch/
+
+# Secrets
+.env.local
+
+# Provided analytics DB is 562MB (over GitHub's 100MB limit) — copy it in from the challenge zip
+data/analytics/analytics.sqlite
